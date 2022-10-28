@@ -27,12 +27,12 @@ function Heart() {
         dragConstraints={{ left: 0, right: 0, bottom: 0, top: 0 }}
       >
         <div className={animationClass}>
-          <motion.div className="relative" animate={{ scale: 1 }}>
+          <motion.div className="relative" animate={{ scale: 1, color }}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width={100 * scale}
               height={100 * scale}
-              fill={color}
+              fill="currentColor"
               class="bi bi-heart-fill"
               viewBox="0 0 16 16"
             >

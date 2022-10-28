@@ -4,16 +4,16 @@ import { motion } from "framer-motion";
 import Title from "./common/Title";
 
 const COLORS = [
-  "#613f98",
-  "#66110c",
-  "#6da6e0",
-  "#822922",
-  "#b0e65d",
-  "#11d607",
-  "#fc9b9e",
-  "#260531",
-  "#45fcdd",
-  "#3dc944",
+  "#be123c",
+  "#c026d3",
+  "#7c3aed",
+  "#2563eb",
+  "#0891b2",
+  "#059669",
+  "#65a30d",
+  "#ca8a04",
+  "#ea580c",
+  "#dc2626",
 ];
 
 function ColorSwatches() {
